@@ -1,0 +1,994 @@
+@import url(reset.css);
+
+/* --------------- INDEX(MAIN HOME) ONLY ---------------- */
+
+
+/* 메인 시작 */
+.mainContent {
+    margin-top: 144px;
+    width: 100%;
+    height: 100%;
+}
+
+/* 스와이퍼 */
+.swiper {
+    width: var(--MainWidth);
+    height: 554px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-button-prev {
+    padding-left: 30px;
+}
+
+.swiper-button-next {
+    padding-right: 30px;
+}
+
+.swiper-slide>a,
+.swiper-slide>a>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 메인 영역 */
+.mainArea {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.eachinfo {
+    width: var(--MainWidth);
+    height: 240px;
+    display: flex;
+    border-bottom: 2px solid rgba(66, 66, 66, 0.2);
+    border-left: 2px solid rgba(66, 66, 66, 0.2);
+    border-right: 2px solid rgba(66, 66, 66, 0.2);
+}
+
+.info1 {
+    width: 30%;
+    height: 100%;
+    border-right: 2px solid rgba(66, 66, 66, 0.2);
+}
+
+.info {
+    position: relative;
+    height: 100%;
+    padding: 24px 30px 00px 30px;
+}
+
+.info>h2 {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.info>ul>li {
+    margin-bottom: 4px;
+}
+
+.mainMore {
+    color: rgba(88, 88, 88, 0.8);
+    font-size: 12px;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+}
+
+.h2line1 {
+    width: 16px;
+    height: 2px;
+    background-color: #333;
+    margin-bottom: 12px;
+}
+
+.h2line2 {
+    width: 10px;
+    height: 2px;
+    background-color: #333;
+    margin-bottom: 12px;
+}
+
+.infoTitle {
+    font-family: 'LINESeedKR-Rg';
+    font-size: 13px;
+    color: #333;
+}
+
+.info2 {
+    width: 30%;
+    height: 100%;
+    border-left: 2px solid rgba(66, 66, 66, 0.2);
+}
+
+.info3 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Guide {
+    width: 90%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.guides {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.guides>a {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.guidesCircle1.on,
+.guidesCircle2.on,
+.guidesCircle3.on,
+.guidesCircle4.on,
+.guidesCircle5.on,
+.guidesCircle6.on {
+    fill: var(--Sub-Color);
+}
+
+.ima {
+    position: absolute;
+    width: 70%;
+
+}
+
+
+.guides>span {
+    color: rgba(88, 88, 88, 0.8);
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+/* 기타 정보 */
+.subArea {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    background-image: url("../image/Students\ watching\ webinar\ on\ computer.jpg");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+.subArea1 {
+    margin-top: 160px;
+}
+
+.subArea2 {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.subArea2>img {
+    width: 320px;
+    height: 220px;
+}
+
+.subArea2,
+.subArea3 {
+    display: flex;
+    justify-content: space-between;
+    width: var(--MainWidth);
+    height: 200px;
+}
+
+.subArea3>img {
+    width: 300px;
+    height: 160px;
+}
+
+/* 스폰서 % 파트너 */
+.spons {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.spons>img {
+    width: var(--MainWidth);
+    height: 136px;
+}
+
+
+
+
+
+
+
+
+
+/* --------------- DETAIL ONLY ---------------- */
+
+.mainContentB1 {
+    margin-top: 144px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainImage {
+    position: relative;
+    width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mainImage>a>img {
+    height: 740px;
+}
+
+.mainContentB2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0efef;
+}
+
+.lectureList {
+    margin-top: 120px;
+    width: var(--MainWidth);
+}
+
+.lectureList>ul {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lectureList>ul>li {
+    width: 80%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.lecImg {
+    margin-right: 20px;
+}
+
+.lecImg>img {
+    height: 200px;
+    width: 334px;
+}
+
+.lecInfo {
+    position: relative;
+    width: calc(100% - 314px);
+    height: 100%;
+}
+
+.lecInfo>h2 {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 6px;
+}
+
+.lecInfoType1 {
+    text-align: center;
+    width: 52px;
+    height: 20px;
+    background-color: rgb(255, 85, 23);
+    font-size: 14px;
+    color: #fff;
+    padding-top: 2px;
+    margin-bottom: 8px;
+}
+
+.lecInfoType2 {
+    text-align: center;
+    width: 52px;
+    height: 20px;
+    background-color: #ab5fa0;
+    font-size: 14px;
+    color: #fff;
+    padding-top: 2px;
+    margin-bottom: 8px;
+}
+
+.infoline {
+    height: 2px;
+    width: 100%;
+    background-color: rgb(100, 100, 100);
+}
+
+table {
+    width: 956;
+    height: 36px;
+}
+
+table.type10 {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 2;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    font-family: 'LINESeedKR-Rg';
+}
+
+table.type10 tbody th {
+    width: 120px;
+    padding: 0px 10px 0px 10px;
+    font-weight: 400;
+    padding-top: 2px;
+}
+
+table.type10 td {
+    width: 250px;
+    padding: 0px 20px 0px 20px;
+    vertical-align: top;
+    padding-top: 2px;
+}
+
+table.type10 .even {
+    background: #dfdddd;
+    text-align: center;
+}
+
+.even1 {
+    border-bottom: 1px solid #ccc;
+}
+
+.lecselectImg {
+    position: absolute;
+    right: 0;
+    bottom: -8px;
+}
+
+.lecselectImg2 {
+    margin-left: 20px;
+}
+
+.lecDot {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    width: 1088px;
+    overflow: hidden;
+}
+
+.lecDot>hr {
+    color: #ccc;
+    border-style: dotted;
+    width: 1090px;
+}
+
+
+
+
+
+
+
+
+
+
+/* --------------- DETAIL B(산업안전보건교육) LEC DETAIL ONLY ---------------- */
+
+.detailContainer {
+    margin-top: 144px;
+    width: 100%;
+    height: 1240px;
+}
+
+.detailContainerSpecial1.addon {
+    height: 1300px;
+}
+.detailContainerSpecial2.addon {
+    height: 1200px;
+}
+.detailContainerSpecial3.addon {
+    height: 1780px;
+}
+
+.detailwrap {
+    margin: 0 auto;
+    width: var(--MainWidth);
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidemenu {
+    margin-top: 60px;
+    width: 260px;
+    height: 1100px;
+}
+
+.sidenav>ul>li {
+    border-bottom: 1px solid #ccc;
+}
+
+.sidenav1 {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #333;
+}
+
+.sidenav1>a {
+    color: var(--Sub-Color);
+    font-size: 20px;
+}
+
+.sidenav2 {
+    padding-left: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: 'LINESeedKR-Rg';
+}
+
+.sidenav2>a {
+    font-weight: bold;
+    color: var(--Main-Color);
+    font-weight: 500;
+}
+
+.siden {
+    padding-left: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: 'LINESeedKR-Rg';
+}
+
+.siden>a {
+    color: #555;
+}
+
+.satyRe {
+    margin-top: 100px;
+}
+
+.PhoneNum {
+    width: 100%;
+    height: 220px;
+    background-color: var(--Main-Color);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.PN>h2 {
+    font-size: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.PN>h1 {
+    font-size: 28px;
+}
+
+.PNTable {
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 180px;
+    font-size: 15px;
+    font-family: 'LINESeedKR-Rg';
+}
+
+.PNTable>tbody>tr>th {
+    font-weight: 400;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.Bank {
+    border: 2px solid #ccc;
+    width: 100%;
+    height: 160px;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Bank>.TB>h3 {
+    font-weight: 500;
+}
+
+.TB {
+    margin-bottom: 10px;
+}
+
+.TB>.BankSp1 {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'LINESeedKR-Rg';
+}
+
+.BB>h3 {
+    font-weight: 300;
+}
+
+.BankSp2 {
+    color: var(--Main-Color);
+}
+
+.BrandSpan {
+    font-family: 'LINESeedKR-Rg';
+}
+
+
+
+/* 오른쪽 파트 */
+.detailContents {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    flex-direction: column;
+}
+
+.detailContentsWrap {
+    width: 90%;
+    height: 100%;
+}
+
+.MainPart {
+    margin-top: 60px;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    border-bottom: 2px solid #ccc;
+}
+
+.MainPart>h2 {
+    font-size: 30px;
+    font-family: 'LINESeedKR-Rg';
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.MainSpans {
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    bottom: 6px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.MainPartspan {
+    font-family: 'LINESeedKR-Rg';
+}
+
+/* 강의 상세 정보 파트 
+   추후에 현재 ul상태를 일반 div로 변경바람.(col)
+   임시로 강의 정보 밑 테이블 항목은 앱솔루트로 적용됨.
+*/
+.SecondPart {
+    position: relative;
+    margin-top: 30px;
+    padding: 30px;
+    width: 100%;
+    height: 400px;
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    background-color: rgba(253, 246, 237, 0.7);
+    color: var(--Sub-Text-Color);
+}
+
+/* 강의 상세 정보 */
+.SPLecList {
+    position: relative;
+    width: 100%;
+    height: 250px;
+
+}
+
+.SPList {
+    display: flex;
+    flex-direction: row;
+}
+
+.SPLecList>ul,
+.SPLecList>li {
+    width: 100%;
+}
+
+.SPlecImg {
+    height: 180px;
+}
+
+.SPlecImg>img {
+    height: 100%;
+}
+
+.SPlecInfo {
+    margin-left: 30px;
+    position: relative;
+}
+
+.SPlecInfo>h2 {
+    font-size: 26px;
+    margin-bottom: 6px;
+}
+
+.SPinfoline {
+    height: 2px;
+    width: 100%;
+    background-color: rgb(100, 100, 100);
+}
+
+
+/* 상세 테이블 전용 */
+.SPlecInfo>table {
+    border-right: 1px solid #ccc;
+}
+
+.SPeven {
+    height: 48px;
+
+}
+
+.SPe {
+    display: flex;
+    flex-direction: column;
+}
+
+.SPe>span {
+    height: 24px;
+}
+
+.underTable {
+    position: absolute;
+    bottom: -90px;
+    width: 100%;
+    height: 110px;
+}
+
+.underTableWrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.underTableWrap>h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--Sub-Text-Color);
+}
+
+.UT {
+    text-align: center;
+    font-size: 15px;
+    height: 32px;
+    font-family: 'LINESeedKR-Rg';
+    border-bottom: 1px solid rgba(204, 204, 204);
+}
+
+.UTA>ul {
+    height: 100%;
+    border-top: 2px solid #000;
+    background-color: rgba(204, 204, 204, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.UTA>ul>li {
+    padding-top: 4px;
+    width: calc(100% / 4);
+}
+
+.UTB {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 돌아가기 버튼 */
+.underBtn {
+    cursor: pointer;
+    position: absolute;
+    width: 72px;
+    height: 30px;
+    right: 30px;
+    bottom: -72px;
+    font-size: 13px;
+    border-radius: 24px;
+    border: 1px solid var(--Main-Color);
+    background-color: #fff;
+    color: var(--Sub-Text-Color);
+}
+
+.underBtn:hover {
+    background-color: var(--Sub-Color);
+    color: #fff;
+}
+
+
+/* 상세 페이지 점선줄 전용 */
+.SPlecDot {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.SPlecDot>hr {
+    color: #ccc;
+    border-style: dotted;
+}
+
+/* 안내용(비환급)  */
+.SPlecInfotext {
+    margin-top: 10px;
+    text-align: center;
+    width: 52px;
+    height: 20px;
+    font-size: 14px;
+    color: #fff;
+    padding-top: 2px;
+    margin-bottom: 8px;
+}
+
+/* 과정소개 등등(하단) */
+.ThirdPart {
+    margin-top: 60px;
+    width: 100%;
+    height: calc(54.2% - 30px);
+}
+
+.ThirdPartWrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ThirdPartTitle {
+    width: 100%;
+    height: 48px;
+}
+
+.ThirdPartTitle>ul {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.ThirdPartTitle>ul>li {
+    cursor: pointer;
+    width: 156px;
+}
+
+.selected {
+    padding-top: 4px;
+    font-size: 20px;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'LINESeedKR-Rg';
+    font-weight: 600;
+}
+
+#mse {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+/* 과정소개 교육내용 평가기준 */
+.selected {
+    border-radius: 50px;
+}
+
+.selected1 {
+    background-color: rgb(253, 162, 162);
+}
+
+.selected1.add {
+    background-color: transparent;
+}
+
+.selected2 {
+    background-color: none;
+}
+
+.selected2.on {
+    background-color: rgb(0, 255, 136);
+}
+
+.selected3 {
+    background-color: none;
+}
+
+.selected3.on {
+    background-color: rgb(36, 166, 253);
+}
+
+
+/* 하단 상세 */
+.ThirdPartContent {
+    position: relative;
+    width: 100%;
+    height: 90%;
+}
+
+/* 상세 페이지 -> 버튼 누를시 과정소개 */
+.uTPC {
+    width: 100%;
+    height: 100%;
+}
+
+
+.uTPC1 {
+    display: block;
+}
+
+.uTPC1.on {
+    display: none;
+}
+
+.uTPC2 {
+    display: none;
+}
+
+.uTPC2.on {
+    display: block;
+}
+
+.uTPC3 {
+    display: none;
+}
+
+.uTPC3.on {
+    display: block;
+}
+
+.uT {
+    width: 100%;
+    position: relative;
+}
+
+.cirs {
+    margin-top: 30px;
+    width: 88px;
+    height: 24px;
+    background-color: rgba(204, 204, 204, 0.7);
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid var(--Sub-Color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4px;
+    color: var(--Sub-Text-Color);
+}
+
+.uT>ul>li {
+    font-size: 14px;
+    color: var(--Sub-Text-Color);
+}
+
+.uT>ul {
+    font-family: 'LINESeedKR-Rg';
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.uTPCB2LISTwrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'LINESeedKR-Rg';
+    color: var(--Sub-Text-Color);
+}
+
+.uTPCB2LISTS {
+    margin-top: 10px;
+    border-top: 2px solid #000;
+}
+
+.uTPCB2LISTS>li {
+    padding-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 26px;
+
+}
+
+.uTPCB2LISTA {
+    width: 120px;
+}
+
+.uTPCB2LISTB {
+    width: calc(100% - 120px);
+}
+
+.uTPCB2LISTB>li {
+    border-bottom: 1px solid rgba(204, 204, 204, 0.7);
+}
+
+.uTPCB2LISTC {
+    width: 50%;
+}
+
+.uTPCB2LISTD {
+    width: 240px;
+}
+
+.uTPCB2LISTC>li,
+.uTPCB2LISTD>li {
+    border-bottom: 1px solid rgba(204, 204, 204, 0.7);
+}
+
+.uTPFL {
+    background-color: rgba(204, 204, 204, 0.3);
+}
+
+.uTPCB2LISTwrap2 {
+    margin-bottom: 60px;
+}
+
+/* 추후 변경예정 */
+.uTunderline {
+    margin-bottom: 20px;
+}
